@@ -1,22 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = ({
-    });
-  }
+const Button = (props) => {
+  const { innerVal, onClickHandler, classN } = props;
 
-  render() {
-    const { innerVal, onClickHandler, classN } = this.props;
-    return (
-      <div className={classN}>
-        <button type="button" onClick={onClickHandler}>{innerVal}</button>
-      </div>
-    );
-  }
-}
+  return (
+    <div className={classN}>
+      <button type="button" onClick={onClickHandler}>{innerVal}</button>
+    </div>
+  );
+};
+
 Button.propTypes = {
   innerVal: PropTypes.string.isRequired,
   onClickHandler: PropTypes.func.isRequired,
