@@ -29,6 +29,11 @@
   grid-column: 1/span 2;
 }
 
-.orange-item {
+.operator-item {
   background-color: orange;
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
