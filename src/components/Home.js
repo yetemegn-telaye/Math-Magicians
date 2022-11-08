@@ -1,17 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Header from './Header';
 
 const Home = () => (
-  <>
-    <nav>
-      <h1>Math Magicians</h1>
-      <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/calculator"> Calculator </Link>
-        <Link to="/quote">Quote</Link>
-      </div>
-    </nav>
-    <main>
+  <div>
+    <Header />
+    <div className="home-main">
       <h3>Welcome to our page!</h3>
       <p>
         mathematics, the science of structure,
@@ -28,8 +21,8 @@ const Home = () => (
         recent times it has assumed a similar role in the quantitative
         aspects of the life sciences.
       </p>
-    </main>
-  </>
+    </div>
+  </div>
 );
 
 export default Home;
