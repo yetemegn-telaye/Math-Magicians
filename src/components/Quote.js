@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const Quote = ()=>{
-    return(
-        <div>
-            Quote
-        </div>
-    )
-}
+const Quote = () => (
+  <div>
+    Quote
+  </div>
+);
 
 export default Quote;
