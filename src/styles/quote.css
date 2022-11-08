@@ -1,0 +1,10 @@
+.quote-body {
+    margin: 15% 30px;
+}
+
+h4{
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 5px 10px 40px rgb(120, 204, 244) inset;
+}
