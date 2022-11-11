@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from './Header';
 import '../styles/home.css';
 
 const Home = () => (
   <>
-    <Header />
     <div className="home-main">
       <h3>Welcome to our page!</h3>
       <p>

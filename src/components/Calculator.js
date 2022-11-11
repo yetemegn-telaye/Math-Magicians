@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
-import Header from './Header';
 import '../styles/calculator.css';
 
 const Calculator = () => {
@@ -14,14 +13,12 @@ const Calculator = () => {
   const onClickHandler = (event) => {
     const buttonName = event.target.innerHTML;
     const { total, next, operation } = calcObj;
-
     const res = calculate({ total, next, operation }, buttonName);
     setCalcObj(res);
   };
   const { total, next, operation } = calcObj;
   return (
     <>
-      <Header />
       <div className="calc-body">
         <h3>Lets do some math!</h3>
         <div className="calculator-container">
