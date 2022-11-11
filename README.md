@@ -10,7 +10,7 @@ A website for math fans to do simple calculations and read random math quotes.
 
 ## Live Demo
 
-live demo here
+https://math-magicians-d9b711.netlify.app/calculator
 
 ### Prerequisites
 - IDE(code editor) like: **Vscode**, **Sublime**, etc. 
